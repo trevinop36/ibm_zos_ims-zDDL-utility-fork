@@ -6,7 +6,7 @@ namespace: ibm
 name: ibm_zos_ims
 
 # The collection version
-version: 1.2.0-beta.1
+version: 1.2.0
 
 # Collection README file
 readme: README.md
@@ -56,6 +56,17 @@ build_ignore:
   - .gitignore
   - gh-pages
   - '*.tar.gz'
-  - tests
+  - tests/__pycache__
+  - tests/.pytest_cache
+  - tests/functional
+  - tests/helpers
+  - tests/units
+  - tests/*.py
+  - tests/*.ini
+  - tests/requirements.txt
+  - tests/*.yml
+  - tests/*.sh
+  - tests/*.cfg
   - docs
   - collections
+  - playbook.sh
