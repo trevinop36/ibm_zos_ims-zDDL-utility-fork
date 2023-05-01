@@ -6,7 +6,7 @@
 from __future__ import (absolute_import, division, print_function)
 __metaclass__ = type
 import pytest
-from ibm_zos_ims.tests.helpers.ztest import ZTestHelper
+from helpers.ztest import ZTestHelper
 import sys
 from mock import MagicMock
 import importlib
